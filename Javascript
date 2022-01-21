@@ -1,0 +1,41 @@
+Javascript: 
+document.title = ("Game");
+document.body.innerHTML = '';
+document.write ("What is your name??");
+setTimeout(() =>{
+var name = prompt ("");
+setTimeout(() =>{
+document.write(" I see, " + name + ".");
+setTimeout(() =>{
+document.write(" Well, let us begin our journey.");
+setTimeout(() =>{
+document.write (" You wake up in a sagged bed, tired, and hungry.");
+setTimeout(() =>{
+document.write (" You look for food.");
+setTimeout(() =>{
+document.write (" You find a cereal box labeled Frosted Flakes.");
+setTimeout(() =>{
+document.write (" A man comes up to you.");
+setTimeout(() =>{
+var ask = confirm("Do you want to continue eating cereal?");
+if (ask==true){setTimeout(() =>{
+document.write(" You should really listen to him.");
+}, 2000);
+}
+setTimeout(() =>{
+document.write(" Man: My name is Bob.");
+setTimeout(() =>{
+document.write (" Bob: You can laugh at my name, but let us get serious.");
+setTimeout(() =>{
+document.write (" Bob: I found you, deep in the woods, a little bruised. I invited you in my house ,after I found you.");
+}, 2000);
+}, 3000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
