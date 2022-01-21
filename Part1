@@ -31,7 +31,7 @@ document.write(" You should really listen to him.");
 }, 2000);
 }
 setTimeout(() =>{
-document.write(" Man: My name is Bob.");
+document.write(" Man: My name is Bob, " +name+ ".");
 setTimeout(() =>{
 document.write (" Bob: You can laugh at my name, but let us get serious.");
 setTimeout(() =>{
