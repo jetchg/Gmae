@@ -10,7 +10,6 @@ document.write("Good! You got it right!");
 }else{
 document.write("OOF! You got it terribly wrong!");
 }
-
 setTimeout(() =>{
 var Question = prompt ("What is 2^2 x 0.01?");
 setTimeout(() =>{
@@ -19,6 +18,8 @@ document.write(" Good! You got it right!");
 }else{
 document.write(" OOF! You got it terribly wrong!");
 }
+document.body.innerHTML = '';
+document.title = ("Jethro's Math game Part2");
 }, 2000);
 }, 2000);
 }, 2000);
