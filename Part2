@@ -1,0 +1,7 @@
+document.body.innerHTML = '';
+document.write("Hello! Welcome to part 2!");
+setTimeout(() =>{
+document.write("First answer questions, then go to the game!");
+setTimeout(() =>{
+}, 2000);
+}, 2000);
