@@ -1,6 +1,13 @@
 Javascript: 
 document.title = ("Game");
 document.body.innerHTML = '';
+var Question = prompt("What is 10 x 23");
+if (Question=="230"){
+document.write("You Got it right!!!");
+}else{
+document.write("OOF. You got it wrong");
+}
+document.body.innerHTML = '';
 document.write ("What is your name??");
 setTimeout(() =>{
 var name = prompt ("");
