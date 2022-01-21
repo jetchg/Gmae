@@ -1,5 +1,7 @@
 document.body.innerHTML = '';
+document.title = ("Jethro's Math game Part2");
 document.write("Hello! Welcome to part 2!");
+setTimeout(() =>{
 var name = prompt ("I forgot your name... Srry.");
 setTimeout(() =>{
 document.write(" First answer questions, then go to the game!");
@@ -21,7 +23,6 @@ document.write(" OOF! You got it terribly wrong!");
 }
 setTimeout(() =>{
 document.body.innerHTML = '';
-document.title = ("Jethro's Math game Part2");
 setTimeout(() =>{
 document.write("Start of part 2.");
 setTimeout(() =>{
@@ -37,7 +38,37 @@ setTimeout(() =>{
 document.write(" You:But...");
 setTimeout(() =>{
 document.write(" I don't know my parents, I don't know anything. Exept that your bob, and I'm, " + name + "!");
-document.write("Srry, I can't tell you where ")
+setTimeout(() =>{
+document.write("Srry, I can't tell you where ");
+setTimeout(()=>{
+document.write(" You walk inside.");
+setTimeout(()=>{
+document.body.innerHTML = '';
+document.write(" You go and eat lunch.");
+setTimeout(()=>{
+document.write(" Bob: GET IN TO THE BASMENT!!!");
+setTimeout(()=>{
+var Question = confirm ("Ask why?");
+if(Question==true){
+document.write(" CUZ THERE'S ZOMBIES!!");
+} else{
+document.write(" So you go into the basement.")
+}
+setTimeout (()=>{
+docuemnt.innerHTML = ''
+document.write("End of part 2.");
+var url2="https://github.com/jetchg/JethroGame/blob/main/Part3...%20ZOMBIES!!"; 
+var url3=""; 
+var url4=url2+url3; 
+var url5="<a href='"+url4+"'>Part3</a>"; 
+document.write(url5);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
 }, 2000);
 }, 2000);
 }, 2000);
