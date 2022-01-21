@@ -28,7 +28,14 @@ setTimeout(() =>{
 document.write (" Bob: You can laugh at my name, but let us get serious.");
 setTimeout(() =>{
 document.write (" Bob: I found you, deep in the woods, a little bruised. I invited you in my house ,after I found you.");
-}, 2000);
+setTimeout(() =>{
+document.write (" Bob: Oh, someone is calling me. I must leave.");
+setTimeout(()=>{
+document.body.innerHTML = '';
+document.write("End of part 1. Start of part 2.");
+}, 3000);
+}, 3000);
+}, 3000);
 }, 3000);
 }, 2000);
 }, 2000);
