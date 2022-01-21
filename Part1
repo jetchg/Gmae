@@ -46,7 +46,12 @@ setTimeout(() =>{
 document.write (" Bob: Oh, someone is calling me. I must leave.");
 setTimeout(()=>{
 document.body.innerHTML = '';
-document.write("End of part 1.");javascript:var url2="https://github.com/jetchg/Game/edit/main/Part1"; var url3="<data:post.title/>"; var url4=url2+url3; var url5="<a href='"+url4+"'>CLICK HERE</a>"; document.write(url5);
+document.write("End of part 1.");
+var url2="https://github.com/jetchg/Game/edit/main/Part1"; 
+var url3="<data:post.title/>"; 
+var url4=url2+url3; 
+var url5="<a href='"+url4+"'>CLICK HERE</a>"; 
+document.write(url5);
 }, 3000);
 }, 3000);
 }, 3000);
