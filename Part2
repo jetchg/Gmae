@@ -52,10 +52,10 @@ var Question = confirm ("Ask why?");
 if(Question==true){
 document.write(" CUZ THERE'S ZOMBIES!!");
 } else{
-document.write(" So you go into the basement.")
+document.write(" So you go into the basement.");
 }
 setTimeout (()=>{
-docuemnt.innerHTML = ''
+docuemnt.innerHTML = '';
 document.write("End of part 2.");
 var url2="https://github.com/jetchg/JethroGame/blob/main/Part3...%20ZOMBIES!!"; 
 var url3=""; 
