@@ -1,1 +1,39 @@
-document.innerHTML
+document.body.innerHTML = '';
+document.write("COME ON!! YOU GOTTA DO SOME QUESTIONS!!");
+setTimeout(() =>{
+var Question = prompt("What is 5^4 x 23");
+setTimeout(() =>{
+if (Question=="14375"){
+document.write(" You got it right!");
+}else{
+document.write(" You got it WRONG!");
+}
+setTimeout(() =>{
+var Question2 = prompt("What is 20^4 x (12^3)");
+setTimeout(() =>{
+if (Question2=="276480000"){
+document. write(" You got it right!");
+}else{
+document. write(" You got it WRONG!");
+}
+setTimeout(() =>{
+document.body.innerHTML = '';
+document. write(" Welp, You're in the zombie basment, in a planet far far away.");
+setTimeout(() =>{
+var Ask1 = confirm ("Do you want to go out and fight in the zombie apocolypse and follow Bob?");
+setTimeout(() =>{
+if(Ask1==true){
+document. write(" Bob: You made the right choice lad!");
+setTimeount(() =>{
+document. write(" You grab a sword, shield, and a machine gun.");
+}, 2000);
+}else{
+document. write (" OOF YOU DIED!!");
+}
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
