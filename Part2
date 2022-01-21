@@ -1,19 +1,20 @@
 document.body.innerHTML = '';
 document.write("Hello! Welcome to part 2!");
+var name = prompt ("I forgot your name... Srry.");
 setTimeout(() =>{
 document.write(" First answer questions, then go to the game!");
 setTimeout(() =>{
-var Question = prompt ("What is 10^4 x 19?");
+var Aswer = prompt ("What is 10^4 x 19?");
 setTimeout(() =>{
-if (Question = "190000"){
+if (Aswer == "190000"){
 document.write(" Good! You got it right!");
 }else{
 document.write(" OOF! You got it terribly wrong!");
 }
 setTimeout(() =>{
-var Question = prompt ("What is 2^2 x 0.01?");
+var Answer2 = prompt ("What is 2^2 x 0.01?");
 setTimeout(() =>{
-if (Question = "0.04"){
+if (Answer2 == "0.04"){
 document.write(" Good! You got it right!");
 }else{
 document.write(" OOF! You got it terribly wrong!");
@@ -26,8 +27,22 @@ document.write("Start of part 2.");
 setTimeout(() =>{
 document.body.innerHTML = '';
 document.write("You go outside.");
-document.write("You: WHOA!! THIS IS SO WEIRD! I thought it was in a town or something!");
-
+setTimeout(() =>{
+document.write(" You: WHOA!! THIS IS SO WEIRD! I thought it was in a town or something!");
+setTimeout(() =>{
+document.write(" You: But, Look at where we are now! This is so strange!");
+setTimeout(() =>{
+document.write(" Bob: Yes this may look very exotic and strange, but this is the truth. We are far from home.");
+setTimeout(() =>{
+document.write(" You:But...");
+setTimeout(() =>{
+document.write(" I don't know my parents, I don't know anything. Exept that your bob, and I'm, " + name + "!");
+document.write("Srry, I can't tell you where ")
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
 }, 2000);
 }, 2000);
 }, 2000);
