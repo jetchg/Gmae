@@ -7,6 +7,13 @@ document.write("You Got it right!!!");
 document.write("OOF. You got it wrong");
 }
 setTimeout(() =>{
+var Question2 = prompt ("What is 0.5^4 x 0.0001");
+if(Question2=="0.00000625") {
+document.write("You got it right!");
+} else {
+document.write("OOF. You got it wrong");
+}
+setTimeout(() =>{
 document.body.innerHTML = '';
 document.write ("What is your name??");
 setTimeout(() =>{
@@ -16,7 +23,7 @@ document.write(" I see, " + name + ".");
 setTimeout(() =>{
 document.write(" Well, let us begin our journey.");
 setTimeout(() =>{
-document.write (" You wake up in a sagged bed, tired, and hungry.");
+document.write (" You wake up in a sagged bed, tired and hungry.");
 setTimeout(() =>{
 document.write (" You look for food.");
 setTimeout(() =>{
@@ -34,7 +41,7 @@ document.write(" Man: My name is Bob, " +name+ ".");
 setTimeout(() =>{
 document.write (" Bob: You can laugh at my name, but let us get serious.");
 setTimeout(() =>{
-document.write (" Bob: I found you, deep in the woods, a little bruised. I invited you in my house ,after I found you.");
+document.write (" Bob: I found you, deep in the woods, a little bruised. I invited you in my house, after I found you.");
 setTimeout(() =>{
 document.write (" Bob: Oh, someone is calling me. I must leave.");
 setTimeout(()=>{
@@ -44,6 +51,7 @@ document.write("End of part 1. Start of part 2.");
 }, 3000);
 }, 3000);
 }, 3000);
+}, 2000);
 }, 2000);
 }, 2000);
 }, 2000);
