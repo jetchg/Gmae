@@ -7,8 +7,8 @@ document.write("You Got it right!!!");
 document.write("OOF. You got it wrong");
 }
 setTimeout(() =>{
-var Question2 = prompt ("What is 0.5^4 x 0.0001");
-if(Question2=="0.00000625") {
+var Question2 = prompt ("What is 5 x 0.1^4");
+if(Question2=="0.0005") {
 document.write("You got it right!");
 } else {
 document.write("OOF. You got it wrong");
