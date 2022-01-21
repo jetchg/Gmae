@@ -7,6 +7,7 @@ document.write("You Got it right!!!");
 }else{
 document.write("OOF. You got it wrong");
 }
+setTimeout(() =>{
 document.body.innerHTML = '';
 document.write ("What is your name??");
 setTimeout(() =>{
@@ -44,6 +45,7 @@ document.write("End of part 1. Start of part 2.");
 }, 3000);
 }, 3000);
 }, 3000);
+}, 2000);
 }, 2000);
 }, 2000);
 }, 2000);
