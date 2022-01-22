@@ -1,5 +1,5 @@
 document.body.innerHTML = '';
-document.title("Jethro's game pt3");
+var name = prompt ("What is your name again?");
 document.write("COME ON!! YOU GOTTA DO SOME QUESTIONS!!");
 setTimeout(() =>{
 var Question = prompt("What is 5^4 x 23");
@@ -69,6 +69,13 @@ setTimeout(() =>{
 document. write (" You: Wait... I was born 2010... This means I'm 27990!!!");
 setTimeout(() =>{
 document. write (" Bob: Wait... I found you in a deep pit, covered in ice! The ice might have preserved you!");
+setTimeout(() =>{
+var url2="https://github.com/jetchg/Game/edit/main/Part4"; 
+var url3=""; 
+var url4=url2+url3; 
+var url5="<a href='"+url4+"'>Click for part 4</a>"; 
+document.write(url5);
+}, 2000);
 }, 2000);
 }, 2000);
 }, 2000);
