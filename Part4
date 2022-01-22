@@ -1,1 +1,23 @@
-
+document. body.innerHTML = '';
+document. write ("Locating user...");
+setTimeout(() =>{
+document. write (" User not found.");
+setTimeout(() =>{
+document.write (" Creating new user...");
+setTimeout(() =>{
+document.write (" Adding user benefits...");
+setTimeout(() =>{
+var name = prompt ("Create a name.");
+setTimeout(() =>{
+var password = prompt ("Create a password");
+var confirmPassword = prompt ("Confirm your password");
+if (confirmPassword==password){
+document.write (" Creating user...");
+}else{
+document.write (" Incorrect password.");
+}
+}, 2000);
+}, 10000);
+}, 2000);
+}, 2000);
+}, 20000);
