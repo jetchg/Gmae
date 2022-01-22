@@ -1,4 +1,5 @@
 document.body.innerHTML = '';
+document.title("Jethro's game pt3");
 document.write("COME ON!! YOU GOTTA DO SOME QUESTIONS!!");
 setTimeout(() =>{
 var Question = prompt("What is 5^4 x 23");
@@ -17,19 +18,81 @@ document. write(" You got it right!");
 document. write(" You got it WRONG!");
 }
 setTimeout(() =>{
+var Question3 = prompt("What is 23^2 x 5^2");
+setTimeout(() =>{
+if (Question3=="13225"){
+document. write(" You got it right!");
+}else{
+document. write(" You got it WRONG!");
+}
+setTimeout(() =>{
+var Question4 = prompt("What is 10^2 x 0.0032");
+setTimeout(() =>{
+if (Question4=="0.32"){
+document. write(" You got it right!");
+}else{
+document. write(" You got it WRONG!");
+}
+setTimeout(() =>{
 document.body.innerHTML = '';
 document. write(" Welp, You're in the zombie basment, in a planet far far away.");
 setTimeout(() =>{
 var Ask1 = confirm ("Do you want to go out and fight in the zombie apocolypse and follow Bob?");
 setTimeout(() =>{
 if(Ask1==true){
-document. write(" Bob: You made the right choice lad!");
-setTimeount(() =>{
-document. write(" You grab a sword, shield, and a machine gun.");
+document. write (" Bob: You made the right choice lad!");
+setTimeout(() =>{
+document. write (" You grab a sword, shield, and a machine gun.");
+setTimeout(() =>{
+document. write (" You: How are we supposed to fight all these zombies!!!");
+setTimeout(() =>{
+document. write (" You don't have 3 hands, so you drop the sword.");
+setTimeout(() =>{
+document. write (" Bob: Well, They're clearly outnubered! We have 20000 while they only have 1000!");
+setTimeout(() =>{
+document. write (" You: Where are they then?");
+setTimeout(() =>{
+document. write (" Bob: In the basment.");
+setTimeout(() =>{
+document. write (" Bob: Oh sorry. I forgot you didn't know, "+name+". They're robots!");
+setTimeout(() =>{
+var Ask2 = confirm ("Do you still want to go out?");
+setTimeout(() =>{
+if (Ask2==false){
+document. write(" Bob: Ok, That's fine with me. I know this is your first time.");
+setTimeout(() =>{
+document. write (" The battle ended and the robots won.");
+setTimeout(() =>{
+prompt ("You: Wait... How old am I?");
+document. write (" Bob: IRDK, but i know it's year 30000. What year do you remember?");
+setTimeout(() =>{
+document. write (" You: Wait... I was born 2010... This means I'm 27990!!!");
+setTimeout(() =>{
+document. write (" Bob: Wait... I found you in a deep pit, covered in ice! The ice might have preserved you!");
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}else{
+document.write(" You died out in battle...");
+}
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
 }, 2000);
 }else{
 document. write (" OOF YOU DIED!!");
+document. write ("Welp, you tried your best. Restart?");
 }
+}, 2000);
+}, 2000);
+}, 2000);
+}, 2000);
 }, 2000);
 }, 2000);
 }, 2000);
