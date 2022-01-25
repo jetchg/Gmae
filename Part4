@@ -13,6 +13,10 @@ var password = prompt ("Create a password");
 var confirmPassword = prompt ("Confirm your password");
 if (confirmPassword==password){
 document.write (" Creating user...");
+setTimeout(() =>{
+document.write (" Uploading game...");
+setTimeout(() 
+}, 2000);
 }else{
 document.write (" Incorrect password.");
 }
