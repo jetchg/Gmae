@@ -1,14 +1,14 @@
 document.title = ("Game");
 document.body.innerHTML = '';
 var Question = prompt("What is 0.01 x 23");
-if (Question=="0.23"||".23"){
+if ((Question=="0.23")(Question==".23")){
 document.write("You got it right!!!");
 }else{
 document.write("OOF. You got it wrong.");
 }
 setTimeout(() =>{
 var Question2 = prompt ("What is 5 x 0.1^4");
-if(Question2=="0.0005"||".0005") {
+if((Question2=="0.0005")||(Question2==".0005")) {
 document.write(" You got it right!");
 } else {
 document.write(" OOF. You got it wrong.");
