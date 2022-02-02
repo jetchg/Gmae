@@ -1,4 +1,5 @@
 document. body.innerHTML = '';
+document.title = ("VladamirMathGame Part4");
 document. write ("Locating user...");
 setTimeout(() =>{
 document. write (" User not found.");
