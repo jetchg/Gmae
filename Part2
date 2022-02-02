@@ -1,5 +1,5 @@
 document.body.innerHTML = '';
-document.title = ("Jethro's Math game Part2");
+document.title = ("VladamirMathGame Part2");
 document.write("Hello! Welcome to part 2!");
 setTimeout(() =>{
 var name = prompt ("I forgot your name... Srry.");
