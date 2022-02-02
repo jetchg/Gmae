@@ -15,8 +15,23 @@ if (confirmPassword==password){
 document.write (" Creating user...");
 setTimeout(() =>{
 document.write (" Uploading game...");
-setTimeout(() 
-}, 2000);
+setTimeout(() =>{
+document.write (" Uploading calculations...");
+setTimeout(() =>{
+var update = confirm("An update occured in Vladamir.Math.Game.js, Would you like to update?");
+if (update == true){
+setTimeout(() =>{
+document.write(" Done updating.");
+}, 5000);
+} else {
+document.write(" Some benefits are postponed.");
+}
+setTimeout(() =>{
+document.write(" Game: Hello! Welcome to VladamirMathGame!);
+}, 3000);
+}, 5000);
+}, 5000);
+}, 5000);
 }else{
 document.write (" Incorrect password.");
 }
