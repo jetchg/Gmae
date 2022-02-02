@@ -37,9 +37,9 @@ document.write(" Bob: Yes this may look very exotic and strange, but this is the
 setTimeout(() =>{
 document.write(" You:But...");
 setTimeout(() =>{
-document.write(" I don't know my parents, I don't know anything. Exept that your bob, and I'm, " + name + "!");
+document.write(" I don't know my parents, I don't know anything. Exept that your Bob, and I'm, " + name + "!");
 setTimeout(() =>{
-document.write("Srry, I can't tell you where ");
+document.write(" Sorry, I can't tell you where you are");
 setTimeout(()=>{
 document.write(" You walk inside.");
 setTimeout(()=>{
@@ -55,13 +55,13 @@ document.write(" CUZ THERE'S ZOMBIES!!");
 document.write(" So you go into the basement.");
 }
 setTimeout (()=>{
-docuemnt.innerHTML = '';
+document.innerHTML = '';
 document.write("End of part 2.");
-var url2="https://github.com/jetchg/JethroGame/blob/main/Part3...%20ZOMBIES!!"; 
+var url2="https://github.com/jetchg/JethroGame/blob/main/Part3"; 
 var url3=""; 
 var url4=url2+url3; 
-var url5="<a href='"+url4+"'>Part3</a>"; 
-document.write(url5);
+var url5="<a href="+url4+">Part3</a>"; 
+document.write(" "+url5);
 }, 2000);
 }, 2000);
 }, 2000);
