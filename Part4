@@ -21,14 +21,20 @@ document.write (" Uploading calculations...");
 setTimeout(() =>{
 var update = confirm("An update occured in Vladamir.Math.Game.js, Would you like to update?");
 if (update == true){
-setTimeout(() =>{
 document.write(" Done updating.");
-}, 5000);
 } else {
 document.write(" Some benefits are postponed.");
 }
 setTimeout(() =>{
-document.write(" Game: Hello! Welcome to VladamirMathGame!);
+document.write(" Game: Hello! Welcome to VladamirMathGame!");
+setTimeout(() =>{
+document.write(" You are currrently running on v1.0.");
+if(update == true){
+document.write("645");
+}else{
+document.write("644");
+}
+}, 3000);
 }, 3000);
 }, 5000);
 }, 5000);
