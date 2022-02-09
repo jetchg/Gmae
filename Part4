@@ -37,22 +37,42 @@ document.write("644");
 setTimeout(() =>{
 document.write(" but that dosen't matter because the v1.0.645 just adds a bug fix.");
 setTimeout(() =>{
+document.innerHTML = '';
 document.write("Ya gotta do your QUESTIONS!!!");
 setTimeout(() =>{
-document.innerHTML = '';
-var math1 prompt("What's 1^9 x 5^4?");
+var math1 = prompt("What's 1^9 x 5^4?");
 if(math1=="625"){
-document.write("CONGRAGULATIONS!! YOU GOT IT RIGHT!");
+document.write(" CONGRAGULATIONS!! YOU GOT IT RIGHT!");
 }else{
-document.write("OOF THAT'S TOTALLY INCORRECT!!");
+document.write(" OOF THAT'S TOTALLY INCORRECT!!");
 }
 setTimeout(() =>{
-var math2 prompt("What's 10^2 x 12");
+var math2 = prompt("What's 10^2 x 12");
 if(math2=="1200"){
-document.write("CONGRAGULATIONS!! YOU GOT IT RIGHT!");
+document.write(" CONGRAGULATIONS!! YOU GOT IT RIGHT!");
 }else{
-document.write("OOF THAT'S TOTALLY INCORRECT!!");
+document.write(" OOF THAT'S TOTALLY INCORRECT!!");
 }
+
+setTimeout(() =>{
+var math3 = prompt("What's 0.04^3 x 12");
+if(math3 == "48"){
+document.write(" CONGRAGULATIONS!! YOU GOT IT RIGHT!");
+}else{
+document.write(" OOF THAT'S TOTALLY INCORRECT!!");
+}
+setTimeout(() =>{
+var math4 = prompt("What's 10^4 x 12");
+if(math4 == "120000"){
+document.write(" CONGRAGULATIONS!! YOU GOT IT RIGHT!");
+}else{
+document.write(" OOF THAT'S TOTALLY INCORRECT!!");
+}
+setTimeout(() =>{
+document.write(" Game:<b>Ok you passed the questions.</b>");
+}, 2000);
+}, 2000);
+}, 2000);
 }, 2000);
 }, 2000);
 }, 2000);
